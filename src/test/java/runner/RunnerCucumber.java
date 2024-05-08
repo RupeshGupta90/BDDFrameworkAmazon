@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 	    plugin = {"pretty","json:target/cucumber-report.json","html:target/cucumber-reports.html"},
-	    features = "C:/Users/rupes/BDD/BddAssessment/src/test/resources/features",
+	    features ="src/test/resources/features",
 	    glue="stepDefinition"
 	    )
 	
